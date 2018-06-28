@@ -98,10 +98,8 @@ $(document).ready(function() {
 
   $('#stop').click(function() {
     $('.done').append(firstChild);
+    vf = false;
   });
-
-
-
 
 });
 
